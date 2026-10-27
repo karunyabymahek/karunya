@@ -1,0 +1,8 @@
+{
+  "name": "Karunya by Mahek — Luxury Digital Atelier",
+  "description": "Independent luxury digital atelier and multidisciplinary creative house by Mahek. Discover artisanal crochet couture, original fine art & textured paintings, handcrafted home decor, botanical bouquets, and bespoke commissions.",
+  "prompt": "Karunya by Mahek luxury digital atelier website with functional catalog, custom order enquiry system, and private admin management.",
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
