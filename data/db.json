@@ -1,0 +1,286 @@
+{
+  "adminPassHash": "e429fc2881c9ae7b4982d295028c89aaab5b6d83a28db2d7e7c59c0052794761",
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "The Heirloom Rose Brooch & Pin",
+      "category": "Crochet creations",
+      "shortDescription": "Multi-layered artisanal sculpted rose in deep burgundy and warm alabaster cotton.",
+      "detailedDescription": "Hand-crocheted petal by petal using premium mercerised Egyptian cotton. Featuring sculpted layered petals in Karunya burgundy with delicate tea-rose undertones, mounted with a tarnished antique-brass locking pin. Each piece requires over six hours of meticulous needle craft.",
+      "price": 1850,
+      "mainImage": "/src/assets/images/category_crochet_couture_1793124077750.jpg",
+      "additionalImages": [
+        "/src/assets/images/hero_atelier_creations_1793124077093.jpg"
+      ],
+      "materials": "100% Mercerised Egyptian Cotton Thread, Brass Pin Backing",
+      "dimensions": "Approx 8.5 cm diameter",
+      "variations": [
+        "Deep Burgundy & Alabaster",
+        "Dusty Rose & Cream",
+        "Antique Gold & Espresso"
+      ],
+      "customisationAvailable": true,
+      "status": "ready-made",
+      "availability": "in-stock",
+      "estimatedProductionTime": "Ships within 48 hours",
+      "shippingNotes": "Calculated separately prior to dispatch based on delivery pincode.",
+      "isFeatured": true,
+      "isPublished": true,
+      "createdAt": "2026-10-27T18:12:49.652Z",
+      "updatedAt": "2026-10-27T18:12:49.652Z"
+    },
+    {
+      "id": "prod-002",
+      "name": "Texture Study No. 4 — Impasto in Ochre & Carmine",
+      "category": "Art and paintings",
+      "shortDescription": "Original high-relief sculptural oil on Italian stretched canvas.",
+      "detailedDescription": "A heavy sculptural palette-knife composition exploring physical topography and raw pigment density. Deep carmine burgundy veining fractures through layered warm clay and raw travertine ochre, dusted with subtle flecks of 22k composition gold leaf. Signed and dated by Mahek.",
+      "price": 8500,
+      "mainImage": "/src/assets/images/category_textured_art_1793124079272.jpg",
+      "additionalImages": [
+        "/src/assets/images/hero_atelier_creations_1793124077093.jpg"
+      ],
+      "materials": "Heavy Body Artist Oils, Texture Medium, 22K Composition Gold Leaf on Linen Canvas",
+      "dimensions": "30 cm × 40 cm (12\" × 16\")",
+      "variations": [
+        "Original 1-of-1 Canvas"
+      ],
+      "customisationAvailable": false,
+      "status": "ready-made",
+      "availability": "in-stock",
+      "estimatedProductionTime": "Ships in bespoke timber-crated packaging in 3 business days",
+      "shippingNotes": "Art freight calculated and verified prior to advance settlement.",
+      "isFeatured": true,
+      "isPublished": true,
+      "createdAt": "2026-10-27T18:12:49.652Z",
+      "updatedAt": "2026-10-27T18:12:49.652Z"
+    },
+    {
+      "id": "prod-003",
+      "name": "Sculpted Travertine & Gold Leaf Catchall",
+      "category": "Handmade décor and trays",
+      "shortDescription": "Raw organic-edged decorative stone tray with gilded brass contouring.",
+      "detailedDescription": "Hand-shaped from artisanal mineral composite and raw crushed travertine, cured with an earthy mineral wash and edged in hand-gilded antique leaf. Beautifully weighted for holding cherished objects, candles, or vanity treasures.",
+      "price": 2400,
+      "mainImage": "/src/assets/images/category_decor_trays_1793124079957.jpg",
+      "additionalImages": [
+        "/src/assets/images/hero_atelier_creations_1793124077093.jpg"
+      ],
+      "materials": "Artisanal Mineral Clay, Crushed Travertine, Antique Gold Leaf, Organic Beeswax Seal",
+      "dimensions": "22 cm × 17 cm × 3.5 cm",
+      "variations": [
+        "Raw Terracotta & Gilded Edge",
+        "Obsidian Stone & Brass",
+        "Alabaster Stone & Rose Gold"
+      ],
+      "customisationAvailable": true,
+      "status": "ready-made",
+      "availability": "in-stock",
+      "estimatedProductionTime": "Ships within 48 hours",
+      "shippingNotes": "Dispatched in shock-absorbent protective packaging.",
+      "isFeatured": true,
+      "isPublished": true,
+      "createdAt": "2026-10-27T18:12:49.652Z",
+      "updatedAt": "2026-10-27T18:12:49.652Z"
+    },
+    {
+      "id": "prod-004",
+      "name": "Everlasting Botanical Dahlia & Peony Flora",
+      "category": "Bouquets and floral gifts",
+      "shortDescription": "A permanent arrangement of hand-crocheted sculptural blooms and foliage.",
+      "detailedDescription": "A masterwork arrangement composed of one giant blooming dahlia, two tea roses, hand-knitted olive eucalyptus sprigs, and delicate jasmine stars wrapped in raw linen and wax-sealed parchment.",
+      "price": 3600,
+      "mainImage": "/src/assets/images/category_crochet_couture_1793124077750.jpg",
+      "additionalImages": [
+        "/src/assets/images/hero_atelier_creations_1793124077093.jpg"
+      ],
+      "materials": "Organic Combed Cotton, Flexible Wire Stems, Italian Raw Linen Wrap",
+      "dimensions": "Height approx 38 cm, Bouquet span 24 cm",
+      "variations": [
+        "Burgundy & Dusty Rose",
+        "Ivory Alabaster & Sage",
+        "Autumn Amber & Terracotta"
+      ],
+      "customisationAvailable": true,
+      "status": "made-to-order",
+      "availability": "made-to-order",
+      "estimatedProductionTime": "5–7 business days creation time",
+      "shippingNotes": "Ships in sturdy reinforced cylindrical presentation casing.",
+      "isFeatured": true,
+      "isPublished": true,
+      "createdAt": "2026-10-27T18:12:49.652Z",
+      "updatedAt": "2026-10-27T18:12:49.652Z"
+    },
+    {
+      "id": "prod-005",
+      "name": "Artisanal Heritage Knit Cardigan — Atelier Edition",
+      "category": "Wearables",
+      "shortDescription": "Substantial chunky woollen knit cardigan with hand-sculpted organic horn buttons.",
+      "detailedDescription": "Handcrafted on manual wooden needles using 100% fine Merino-alpaca blend yarn. Features an oversized luxury drape, drop shoulders, deep ribbing, and custom horn buttons. Designed to be a lifelong heirloom garment.",
+      "price": 9200,
+      "mainImage": "/src/assets/images/hero_atelier_creations_1793124077093.jpg",
+      "additionalImages": [
+        "/src/assets/images/category_crochet_couture_1793124077750.jpg"
+      ],
+      "materials": "70% Fine Australian Merino Wool, 30% Baby Alpaca, Horn Buttons",
+      "dimensions": "Available in Size 1 (XS-M relaxed) and Size 2 (L-XXL oversized)",
+      "variations": [
+        "Size 1 / Natural Oatmeal",
+        "Size 1 / Deep Carmine Burgundy",
+        "Size 2 / Natural Oatmeal",
+        "Size 2 / Deep Carmine Burgundy"
+      ],
+      "customisationAvailable": true,
+      "status": "made-to-order",
+      "availability": "made-to-order",
+      "estimatedProductionTime": "12–14 business days hand-knit lead time",
+      "shippingNotes": "Dispatched via insured express courier.",
+      "isFeatured": true,
+      "isPublished": true,
+      "createdAt": "2026-10-27T18:12:49.652Z",
+      "updatedAt": "2026-10-27T18:12:49.652Z"
+    },
+    {
+      "id": "prod-006",
+      "name": "Collectible Atelier Moonflower Bear",
+      "category": "Plushies and stuffed toys",
+      "shortDescription": "One-of-a-kind handcrafted sculptural soft collectible bear in vintage textured weave.",
+      "detailedDescription": "Individually sculpted and stitched by Mahek. Features traditional disc-jointed arms and legs, glass eyes, hand-embroidered nose and claws, and an embroidered burgundy velvet collar. A serious collector piece rather than a generic factory plush.",
+      "price": 3400,
+      "mainImage": "/src/assets/images/category_crochet_couture_1793124077750.jpg",
+      "additionalImages": [
+        "/src/assets/images/hero_atelier_creations_1793124077093.jpg"
+      ],
+      "materials": "Vintage Textured Bouclé & Mohair, German Glass Eyes, Wood Fiber & Cotton Fill",
+      "dimensions": "Standing 26 cm (Sitting 19 cm)",
+      "variations": [
+        "Classic Champagne Teddy",
+        "Burgundy Velvet Edition"
+      ],
+      "customisationAvailable": true,
+      "status": "ready-made",
+      "availability": "in-stock",
+      "estimatedProductionTime": "Ships within 48 hours",
+      "shippingNotes": "Packaged in a dedicated keepsake dustbag and gift carton.",
+      "isFeatured": false,
+      "isPublished": true,
+      "createdAt": "2026-10-27T18:12:49.652Z",
+      "updatedAt": "2026-10-27T18:12:49.652Z"
+    },
+    {
+      "id": "prod-007",
+      "name": "Deckle-Edge Cotton Journal with Rose Wax Seal",
+      "category": "Books, writing and stationery",
+      "shortDescription": "Hand-bound 150gsm handmade rag paper journal with leather wrap tie.",
+      "detailedDescription": "Hand-sewn using historical long-stitch binding with 160 pages of recycled cotton rag paper suitable for fountain pens, gouache, and ink sketches. Finished with an authentic burgundy wax seal bearing the Karunya rose insignia.",
+      "price": 1650,
+      "mainImage": "/src/assets/images/category_decor_trays_1793124079957.jpg",
+      "additionalImages": [
+        "/src/assets/images/hero_atelier_creations_1793124077093.jpg"
+      ],
+      "materials": "100% Recycled Cotton Rag Paper (150 gsm), Waxed Linen Thread, Vegetable Tanned Leather",
+      "dimensions": "A5 format (15 cm × 21 cm)",
+      "variations": [
+        "Raw Tan Leather",
+        "Burgundy Wine Leather"
+      ],
+      "customisationAvailable": true,
+      "status": "ready-made",
+      "availability": "in-stock",
+      "estimatedProductionTime": "Ships within 48 hours",
+      "shippingNotes": "Includes archival packaging.",
+      "isFeatured": false,
+      "isPublished": true,
+      "createdAt": "2026-10-27T18:12:49.652Z",
+      "updatedAt": "2026-10-27T18:12:49.652Z"
+    },
+    {
+      "id": "prod-008",
+      "name": "Personalised Botanical Shadowbox Frame",
+      "category": "Personalised gifts and other creative pieces",
+      "shortDescription": "Bespoke hand-crocheted birth-flower composition in solid wood shadowbox with calligraphy.",
+      "detailedDescription": "A completely bespoke keepsake crafted to celebrate weddings, anniversaries, or special milestones. Mahek sculpts the recipient’s birth flower or favourite botanical in fine cotton thread and sets it in an archival deep shadowbox with hand-lettered gold or ink calligraphy.",
+      "price": 4200,
+      "mainImage": "/src/assets/images/category_textured_art_1793124079272.jpg",
+      "additionalImages": [
+        "/src/assets/images/category_crochet_couture_1793124077750.jpg"
+      ],
+      "materials": "Mercerised Cotton, Acid-Free Museum Matting, Solid Teak Wood Frame, Museum Glass",
+      "dimensions": "20 cm × 25 cm × 4.5 cm depth",
+      "variations": [
+        "Single Bloom Study",
+        "Duo Botanical Keepsake"
+      ],
+      "customisationAvailable": true,
+      "status": "made-to-order",
+      "availability": "made-to-order",
+      "estimatedProductionTime": "7–10 days bespoke craftsmanship",
+      "shippingNotes": "Carefully crated with reinforced corners for courier transit.",
+      "isFeatured": true,
+      "isPublished": true,
+      "createdAt": "2026-10-27T18:12:49.652Z",
+      "updatedAt": "2026-10-27T18:12:49.652Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-mvr075ob-jesx",
+      "orderNumber": "KBM-2026-4476",
+      "customerName": "Test Client",
+      "email": "client@test.com",
+      "phone": "+919876543210",
+      "address": "12 Luxury Lane",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400001",
+      "items": [
+        {
+          "productId": "prod-001",
+          "productName": "The Heirloom Rose Brooch & Pin",
+          "price": 1850,
+          "quantity": 1,
+          "variation": "",
+          "customNotes": "",
+          "image": ""
+        }
+      ],
+      "subtotal": 1850,
+      "shippingCharge": null,
+      "total": 1850,
+      "status": "Enquiry received",
+      "paymentStatus": "Pending verification",
+      "createdAt": "2026-10-27T18:13:03.227Z",
+      "updatedAt": "2026-10-27T18:13:03.227Z"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "enq-mvr07gv7-pv27",
+      "enquiryNumber": "ENQ-2026-6042",
+      "customerName": "Bespoke Collector",
+      "email": "art@collector.com",
+      "phone": "+919988776655",
+      "category": "Art and paintings",
+      "description": "A textured impasto landscape in deep burgundy and gold leaf",
+      "occasion": "Anniversary",
+      "preferredColours": "Burgundy, cream, gold",
+      "specifications": "18x24 inches canvas",
+      "materialsPreference": "Heavy oil, gold leaf",
+      "quantity": 1,
+      "budgetRange": "₹7,500 – ₹15,000",
+      "requiredDate": "2026-11-20",
+      "deliveryLocation": "Bangalore",
+      "referenceImages": [],
+      "policyAccepted": true,
+      "status": "Enquiry Received",
+      "createdAt": "2026-10-27T18:13:17.731Z",
+      "updatedAt": "2026-10-27T18:13:17.731Z"
+    }
+  ],
+  "settings": {
+    "whatsappNumber": "",
+    "instagramHandle": "",
+    "contactEmail": "",
+    "studioLocation": "Ahmedabad / Mumbai, India"
+  }
+}

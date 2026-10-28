@@ -1,0 +1,965 @@
+# PROJECT: KARUNYA BY MAHEK — LUXURY DIGITAL ATELIER
+
+Act as a senior luxury-brand creative director, award-winning editorial web designer, UX strategist, e-commerce architect, and experienced full-stack developer.
+
+Design and build a complete, production-minded website for my independent creative business, **Karunya by Mahek**.
+
+Do not simply create a generic e-commerce template, a basic portfolio, or a pretty static landing page. I want an original, visually exceptional luxury digital experience with functional shopping, a custom-order enquiry system, and a private product-management dashboard.
+
+I am a beginner with no coding experience. You must generate the application, explain necessary setup steps in simple language, and prioritise free tools and free hosting options.
+
+Do not stop after presenting a design proposal or code snippets. Build the actual working application and help me test it.
+
+---
+
+## 1. BRAND IDENTITY — NON-NEGOTIABLE
+
+Brand name: Karunya by Mahek
+
+Business: An independent, multidisciplinary handmade art and creative-products brand.
+
+Brand personality:
+- Bold, sophisticated, confident, artistic and distinctive.
+- Luxury editorial rather than cute, sentimental, or conventionally feminine.
+- Contemporary luxury with a subtle heritage sensibility.
+- Artistic, personal, expressive and premium.
+- One unified creative house, not several disconnected mini-brands.
+
+The website should evoke the visual confidence of established luxury fashion houses such as Gucci, Prada and Louis Vuitton, while maintaining an original identity.
+
+Use these brands only as broad references for quality, confidence, editorial art direction and presentation. Do not copy their logos, signature motifs, layouts, proprietary designs or exact website compositions.
+
+The result must feel unmistakably like Karunya by Mahek.
+
+### Existing logo
+
+My existing identity features:
+- The word “Karunya” in a distinctive, elegant display serif.
+- A rose motif overlapping or appearing behind the wordmark.
+- “by Mahek” beneath the main name.
+- A secondary wordmark that uses burgundy typography on cream.
+
+Use the supplied brand identity reference image to guide the implementation.
+
+Preserve the actual logo artwork wherever possible. Do not redraw, distort, misspell or substitute the logo with an unrelated font.
+
+If the logo asset is unavailable in the project files, create a clearly identified placeholder and tell me how to replace it with my real logo. Never pretend a placeholder is my original logo.
+
+### Brand colour palette
+
+Use the existing colours as the foundation:
+
+- Deep burgundy: #5A0F26
+- Warm cream: #F5EFE9
+- Dusty rose: #C48A8C
+- Optional champagne gold: use sparingly.
+
+You may introduce complementary luxury neutrals such as warm stone, muted taupe, dark espresso, soft charcoal and restrained antique-brass tones.
+
+The overall visual balance must remain sophisticated and controlled.
+
+Use burgundy for meaningful accents, prominent sections, selected backgrounds and brand-defining moments. Use cream and warm neutrals to create contrast, readability and visual breathing room.
+
+Do not make the entire website pink. Do not use excessive gold effects, gradients, decorative borders or rose illustrations merely to make the site appear luxurious.
+
+### Visual language
+
+Prioritise:
+- High-fashion editorial typography.
+- Large, confident headlines.
+- Beautifully art-directed product photography.
+- Asymmetrical but intentional layouts.
+- Dramatic scale and contrast.
+- Large images and generous whitespace.
+- Sophisticated image cropping.
+- Strong compositions inspired by print magazines and contemporary art direction.
+- Subtle paper, grain or print textures only when they enhance the design.
+- The existing rose motif and selected illustration details used with restraint.
+
+The desired effect is luxury through art direction, not excessive decoration.
+
+Avoid:
+- Generic Shopify-style template aesthetics.
+- Generic pastel craft-store layouts.
+- Excessive floral decorations.
+- Cutesy icons and childish illustrations.
+- Overly sentimental or “soft girl” copywriting.
+- Excessive rounded cards and pill-shaped buttons.
+- Unnecessary glassmorphism.
+- Random animations.
+- Generic AI-generated lifestyle imagery presented as actual products.
+- Unreadably small luxury-style text.
+
+---
+
+## 2. CORE CREATIVE CONCEPT
+
+The website should feel like entering a distinctive luxury creative house where art, craft, fashion, objects and personal stories coexist.
+
+The opening screen must have the confidence of a luxury advertising campaign.
+
+Imagine:
+- An oversized editorial headline.
+- A dramatic, full-width visual composition featuring my real creations.
+- Elegant navigation.
+- Intentional negative space.
+- A striking contrast between typography and photography.
+- Subtle movement that gives the site an immersive quality.
+- A clear path to explore the collection or place an order.
+
+The experience should be visually bold but never chaotic in its design execution.
+
+My artistic process can be unpredictable, and my products are diverse. The website's visual system should unify that diversity without making every category look identical.
+
+Create a coherent design language across all pages.
+
+---
+
+## 3. HOMEPAGE DESIGN
+
+Build a complete luxury campaign-style homepage with the following sections.
+
+### A. Minimal luxury navigation
+
+Include:
+- My logo.
+- Shop.
+- Collections or Categories.
+- Custom Orders.
+- The Artist / About.
+- A shopping bag or cart.
+- Search, if practical.
+
+Keep navigation elegant, responsive and easy to use.
+
+On desktop, explore a refined editorial navigation layout. On mobile, use a compact, polished menu with a clear shopping action.
+
+The navigation must remain usable when animations are active.
+
+### B. Campaign-style hero section
+
+Create a dramatic first screen that feels like a luxury fashion campaign.
+
+Requirements:
+- A striking composition using authentic photographs of my creations.
+- An oversized, editorial headline.
+- Minimal supporting copy.
+- A prominent “Explore the Collection” action.
+- A secondary “Create Something Personal” or “Custom Orders” action.
+- The Karunya identity integrated into the composition.
+- A subtle visual cue encouraging visitors to scroll.
+
+Do not use a generic headline such as “Welcome to Our Store.”
+
+Develop original, bold brand copy. Possible creative directions include “Art, Beyond the Ordinary” or “A World Made by Hand.” Treat these as inspiration, not mandatory final wording.
+
+The headline must communicate artistic ambition and individuality rather than limiting the business to crochet or crafts.
+
+Use my real photographs wherever possible. If no suitable photograph is available, create an elegant, clearly replaceable placeholder and explain how I can substitute my own image.
+
+### C. Editorial introduction
+
+Introduce Karunya by Mahek as one multidisciplinary creative house.
+
+Show that the brand creates many kinds of work, all connected by a personal artistic vision.
+
+Use short, confident copy. Avoid lengthy generic paragraphs about passion and love.
+
+### D. The collection
+
+Present all product categories at launch.
+
+The layout should resemble a carefully art-directed editorial collection rather than a conventional grid of identical product cards.
+
+Experiment with:
+- Large feature images.
+- Alternating image proportions.
+- Editorial category titles.
+- Asymmetrical image arrangements.
+- Deliberate whitespace.
+- Restrained hover interactions.
+- Clear links to shop each category.
+
+Maintain consistent visual rules so that the page still feels cohesive.
+
+### E. Featured creations
+
+Show selected products with:
+- Authentic product photography.
+- Product name.
+- Visible price.
+- Availability status.
+- A link to the product detail page.
+
+Include a clear “View All Creations” action.
+
+Only display products actually entered into the catalogue. Do not invent product listings, prices, ratings or stock availability.
+
+### F. The artist behind the work
+
+Create a visually striking introduction to me as the person behind Karunya.
+
+Use my real portrait and workspace photographs.
+
+Include space for:
+- My introduction.
+- My creative background.
+- My multidisciplinary practice.
+- My approach to making things.
+- A link to the full About page.
+
+The writing should be personal and confident without becoming overly sentimental.
+
+### G. Behind the making
+
+Create a section that showcases the making process, materials, experiments, works in progress and finished creations.
+
+Use my own photographs and videos where available.
+
+The goal is to communicate artistic versatility, individuality and the work involved in handmade products.
+
+### H. Personalisation and custom work
+
+Create a distinctive section inviting visitors to commission personalised creations.
+
+Explain that customers can submit their ideas, references, preferred colours, dimensions, budget and deadline.
+
+Include a strong call to action leading to the custom-order form.
+
+### I. Customer stories
+
+Provide a refined section for genuine customer feedback and photographs of products in their new homes.
+
+Use editorial presentation rather than generic testimonial cards.
+
+Only display authentic reviews and customer content that I have permission to publish. If no reviews exist yet, omit the section or show a tasteful placeholder only in the development environment.
+
+### J. Closing campaign section
+
+Finish the homepage with a visually distinctive brand statement and clear shopping and custom-order actions.
+
+Include the brand signature:
+
+“Hello, my Calm Chaos Baby 🌻”
+
+Use this phrase as a recognisable, playful signature moment within the otherwise polished luxury experience. It should feel intentional, not like a random cute slogan.
+
+### K. Footer
+
+Include:
+- Logo.
+- Navigation links.
+- Shop categories.
+- Custom-order link.
+- Instagram.
+- WhatsApp, once I provide the number.
+- Contact email, once I provide it.
+- Shipping and payment policies.
+- Returns and cancellation policy.
+- Privacy policy.
+- Terms and conditions.
+
+Do not invent contact details, social URLs or business addresses.
+
+---
+
+## 4. COMPLETE PRODUCT CATALOGUE
+
+Include these categories from launch:
+
+1. Crochet creations — crochet flowers, rakhis, accessories and character-inspired handmade pieces.
+2. Art and paintings — original paintings, portraits, texture art and other artwork.
+3. Bouquets and floral gifts.
+4. Handmade décor and trays.
+5. Wearables — cardigans, hoodies and other handmade clothing.
+6. Plushies and stuffed toys.
+7. Books, writing and stationery.
+8. Personalised gifts and other creative pieces.
+
+All categories belong to the same brand. Do not split them into unrelated brand identities.
+
+Create category pages with:
+- Editorial category introduction.
+- Category-specific image presentation.
+- Product listings.
+- Visible prices.
+- Availability labels.
+- Product filters where practical.
+- Search and sorting where practical.
+- Clear navigation back to the main collection.
+
+Because products vary considerably in size, price, material and purpose, the layout should adapt to the product rather than forcing every item into an identical presentation.
+
+### Product data model
+
+Each product should support the following fields where applicable:
+
+- Unique product ID.
+- Product name.
+- Category.
+- Short description.
+- Detailed description.
+- Price in INR.
+- Optional compare-at price, only when genuinely applicable.
+- Main image.
+- Additional images.
+- Materials.
+- Dimensions or available sizes.
+- Colour or variation options.
+- Customisation availability.
+- Ready-made or made-to-order status.
+- Stock quantity or availability status.
+- Estimated production time.
+- Shipping notes.
+- Featured-product status.
+- Publication status.
+- Creation and update timestamps.
+
+Support multiple images per product.
+
+Never invent specifications or claim that an item is in stock without supporting catalogue data.
+
+### Product detail pages
+
+Each product page should include:
+- Large product photography.
+- A gallery or image viewer.
+- Product name.
+- Visible INR price.
+- Detailed description.
+- Materials and dimensions where supplied.
+- Available variations.
+- Availability and production information.
+- Shipping information.
+- A quantity selector where appropriate.
+- A clear order or add-to-cart action.
+- A customisation option where applicable.
+- Related products from the same brand.
+
+Images should be large, sharp and properly proportioned. Avoid unnecessary borders and decorative clutter.
+
+---
+
+## 5. FUNCTIONAL SHOPPING EXPERIENCE
+
+Build a functioning shopping system for ready-made products and a separate enquiry experience for custom work.
+
+### Ready-made products
+
+Customers should be able to:
+- Browse products.
+- See prices before ordering.
+- Open product detail pages.
+- Select available variations.
+- Select quantities where appropriate.
+- Add products to a shopping bag.
+- Review and edit their bag.
+- Enter their contact and delivery information.
+- Review their order and applicable charges.
+- Submit an order request or complete checkout if a supported payment integration has been configured.
+
+Do not label a button “Buy Now” if it does not actually initiate a valid purchase flow.
+
+Because my budget is ₹0, first implement the most practical free-tier-compatible ordering workflow. Do not assume that a payment gateway, shipping API, or paid commerce platform is available.
+
+If online payment integration is not configured, provide a clearly labelled order-request flow and explain how payment is completed. Do not display fake payment success messages or claim that an order is paid when it is not.
+
+### Order totals
+
+Display the product subtotal and shipping charges separately.
+
+Shipping is additional and must not be silently included in product prices.
+
+If the shipping charge cannot be calculated automatically, display that the shipping amount will be confirmed before payment or final order confirmation. Do not invent a shipping fee.
+
+Clearly communicate the total payable amount once the applicable shipping charge is known.
+
+### Order information
+
+Collect only information required to fulfil the order, such as:
+- Customer name.
+- Email address.
+- Phone number.
+- Delivery address.
+- Order items and quantities.
+- Product variations.
+- Customisation instructions, if applicable.
+- Shipping charge and order total when determined.
+- Order status.
+- Payment status.
+- Relevant timestamps.
+
+Provide an order reference number when an order is successfully recorded.
+
+Use clear statuses such as:
+- Enquiry received.
+- Awaiting shipping confirmation.
+- Awaiting payment.
+- Confirmed.
+- In production.
+- Shipped.
+- Completed.
+- Cancelled, where applicable under the stated policy.
+
+Do not mark an order as confirmed, paid or shipped without the corresponding action or verified update.
+
+---
+
+## 6. CUSTOM-ORDER ENQUIRY SYSTEM
+
+Build a polished, detailed custom-order form.
+
+The form must collect all information necessary to understand and evaluate a customer's request.
+
+Include:
+
+1. Full name.
+2. Email address.
+3. Contact number.
+4. Product category.
+5. Description of the requested creation.
+6. Occasion or intended purpose.
+7. Preferred colours.
+8. Dimensions, sizes or other specifications.
+9. Material preferences, where applicable.
+10. Quantity.
+11. Budget range in INR.
+12. Required delivery date.
+13. Delivery location.
+14. Reference-image or inspiration-file upload.
+15. Additional notes.
+16. Confirmation that the customer has reviewed the applicable policies.
+
+Allow the customer to describe the story or idea behind the creation, but do not make this unnecessarily intrusive.
+
+Use conditional fields where helpful. For example, clothing may require size information, while a painting may require dimensions.
+
+The form should:
+- Validate required fields.
+- Display helpful error messages.
+- Handle image-upload limits and unsupported file types.
+- Show a clear submission confirmation only after the request has actually been saved.
+- Generate a reference number for a successfully recorded enquiry.
+- Avoid losing user-entered data unnecessarily.
+- Provide a polished mobile experience.
+
+Create a dedicated enquiry-management view in the admin dashboard.
+
+Do not send customer information to third parties without a legitimate purpose and appropriate disclosure.
+
+---
+
+## 7. PRIVATE ADMIN DASHBOARD — ESSENTIAL
+
+I must be able to manage my business without coding.
+
+Build a separate, private admin area that is not accessible to ordinary customers.
+
+The dashboard should allow me to:
+
+### Product management
+- Add a product.
+- Edit a product.
+- Delete a product with confirmation.
+- Upload and manage product images.
+- Edit product prices.
+- Manage categories.
+- Update descriptions and specifications.
+- Mark products as featured.
+- Change availability and stock status.
+- Mark products as ready-made or made-to-order.
+- Publish or unpublish products.
+
+### Order management
+- View orders.
+- View customer and delivery details.
+- View ordered products and quantities.
+- Update order status.
+- Record payment status based on verified information.
+- Record shipping information.
+- Search and filter orders.
+- View order dates and totals.
+
+### Custom enquiries
+- View submitted enquiries.
+- View customer contact details.
+- Review customisation requirements.
+- Access uploaded reference images.
+- Change enquiry status.
+- Add private internal notes.
+- Mark enquiries as reviewed or resolved.
+
+### Dashboard overview
+
+Display useful information such as:
+- Total published products.
+- Orders awaiting action.
+- New custom enquiries.
+- Products marked unavailable.
+- Recent order activity.
+
+Do not fabricate sales statistics, customer numbers or business performance data.
+
+### Authentication and security
+
+Implement real administrator authentication.
+
+Do not protect the dashboard merely by hiding a link or checking a password in frontend code.
+
+Never embed administrator passwords, private API keys, secret credentials or service-account keys in client-side code.
+
+Unauthorised visitors must not be able to access private orders, customer records, enquiries or admin functions.
+
+Use secure server-side permissions or an appropriately configured backend with access rules.
+
+If authentication or the database requires configuration, tell me exactly what must be done and how to do it in beginner-friendly steps.
+
+Do not create a fake admin dashboard whose changes disappear on refresh. Product edits, orders and enquiries must persist using the configured data storage.
+
+---
+
+## 8. FREE-TO-USE TECHNICAL ARCHITECTURE
+
+My target budget is ₹0. Prioritise services with free tiers and no required paid subscription for the initial launch.
+
+Investigate the current capabilities of Google AI Studio's supported application-building workflow and select a suitable architecture.
+
+Prefer a maintainable solution with:
+- A responsive frontend.
+- Persistent product and order data.
+- Secure administrator authentication.
+- Image storage.
+- Validated server-side operations.
+- Appropriate database access rules.
+- A deployable application.
+- A clear separation between public catalogue data and private customer data.
+
+If a Google-supported Firebase integration is available, consider Firebase Authentication, Cloud Firestore and Firebase Storage with appropriately configured free-tier usage and security rules.
+
+Alternatively, select another suitable free-tier backend if it is simpler and genuinely supported by the generated application.
+
+Do not blindly combine multiple backend services.
+
+### Important constraints
+
+- Verify which services and features are actually available.
+- Do not assume all hosting, database, storage or email services are permanently free.
+- Do not require a paid custom domain.
+- Do not introduce unnecessary dependencies.
+- Do not require me to operate a server manually.
+- Do not make me edit complex code for routine product updates.
+- Do not claim that a database or authentication system works before it has been configured and tested.
+- Do not store administrator credentials or sensitive information in localStorage.
+- Do not treat localStorage as a secure database for customer information.
+- Do not put privileged database credentials in the frontend.
+- Do not use a mock payment gateway or fake checkout.
+- Do not create nonfunctional forms.
+
+If the chosen platform has usage limits or requires enabling billing, explain that clearly before presenting it as a launch-ready solution.
+
+Prefer a free deployment option that can host the generated application. Explain any required Google account permissions, project creation, environment variables, database setup and deployment steps.
+
+The initial goal is to avoid recurring costs, not to guarantee that every advanced feature can operate indefinitely at zero cost.
+
+---
+
+## 9. IMMERSIVE EDITORIAL INTERACTIONS
+
+I want bold, immersive animations and experimental scrolling.
+
+The site must feel alive and carefully art-directed, rather than like a static template.
+
+Explore the following effects where they improve the experience:
+
+### Campaign opening
+- An elegant logo or headline entrance.
+- Staggered text reveals.
+- Image masks or cinematic image reveals.
+- Carefully timed movement.
+- A clear transition into the main content.
+
+### Scroll storytelling
+- Text and images revealing progressively.
+- Subtle parallax.
+- Alternating visual compositions.
+- Sections that change rhythm as visitors scroll.
+- Controlled overlap between imagery and typography.
+- Editorial transitions between categories.
+
+### Product interactions
+- Refined image changes on hover.
+- Image zoom where appropriate.
+- Subtle product-detail reveals.
+- Sophisticated gallery navigation.
+- Clear selected-variation states.
+- Elegant cart feedback.
+
+### Brand details
+- Selective use of the rose motif.
+- Restrained moving typography.
+- Occasional use of the phrase “Hello, my Calm Chaos Baby 🌻”.
+- Subtle visual references to the act of making, drawing or creating.
+
+Do not add every effect just because it is possible.
+
+### Performance and accessibility
+
+Animations must:
+- Work on mobile and desktop.
+- Respect reduced-motion preferences.
+- Avoid blocking shopping actions.
+- Avoid interfering with navigation or keyboard access.
+- Avoid causing layout shifts.
+- Avoid making text difficult to read.
+- Remain performant on ordinary mobile devices.
+
+Provide simpler fallbacks for effects that are unsuitable for mobile.
+
+Do not use forced scrolling that prevents visitors from navigating naturally.
+
+The website must remain functional if an animation fails to load.
+
+---
+
+## 10. TYPOGRAPHY AND COMPONENT SYSTEM
+
+Develop a consistent typography system with:
+- A distinctive editorial display serif for major headlines.
+- A complementary, highly readable body typeface.
+- A restrained accent typeface for occasional brand details.
+- A deliberate hierarchy between headings, descriptions, prices and labels.
+
+Use legally accessible fonts or reliable system fallbacks. Avoid unnecessary font loading.
+
+Create a consistent design system for:
+- Buttons.
+- Navigation.
+- Product cards.
+- Product galleries.
+- Price labels.
+- Forms.
+- Input fields.
+- Error and success messages.
+- Modal windows.
+- Cart components.
+- Admin tables.
+- Status labels.
+- Footer elements.
+
+Buttons should have refined visual states for hover, focus, loading, disabled and successful actions.
+
+Prioritise usability over decorative effects.
+
+---
+
+## 11. COPYWRITING AND BRAND VOICE
+
+The writing should be:
+- Bold.
+- Editorial.
+- Confident.
+- Concise.
+- Personal without being sentimental.
+- Premium without sounding pretentious.
+- Distinctive without being confusing.
+
+Avoid:
+- Generic phrases such as “made with lots of love” repeated everywhere.
+- Excessive emotional adjectives.
+- Clichéd romantic copy.
+- Corporate business jargon.
+- Overly cute craft-store language.
+- Unsupported claims about quality, materials, sustainability or exclusivity.
+
+The website should communicate artistic versatility, emotional stories, personalisation and the individuality of each creation.
+
+Use “Hello, my Calm Chaos Baby 🌻” as a signature brand expression in an intentional location.
+
+Create original copy for the homepage, collection introductions, custom-order section, About page and other main sections.
+
+Do not invent my personal biography, qualifications, production capacity, brand history or customer testimonials. Use clearly labelled editable placeholders wherever my actual information is required.
+
+---
+
+## 12. SHIPPING, PAYMENT AND STORE POLICIES
+
+The following are my stated business policies:
+
+- No cash on delivery.
+- Full advance payment is required.
+- No order cancellations.
+- No returns.
+- No exchanges.
+- Shipping charges are additional to product prices.
+
+Display these policies clearly on the website, especially before order submission and payment.
+
+Explain that shipping charges are calculated or confirmed separately when they cannot be determined automatically.
+
+For custom orders, make it clear that the requirements, quotation, applicable shipping charges and payment instructions must be confirmed through the order process before the customer proceeds.
+
+Do not invent production times, delivery guarantees or shipping rates.
+
+### Important policy wording
+
+Do not assume that a blanket no-return policy overrides applicable consumer-protection law. Draft clear, professional policy text that preserves my stated business rules while noting that statutory rights and any legally required exceptions still apply.
+
+Do not make customers believe an order has been accepted or payment received when that has not happened.
+
+Create dedicated pages or sections for:
+- Shipping and delivery.
+- Payment policy.
+- Cancellation policy.
+- Returns and exchanges.
+- Privacy policy.
+- Terms and conditions.
+
+Mark any details that require my confirmation before publication.
+
+---
+
+## 13. CUSTOMER PRIVACY AND DATA HANDLING
+
+I want to collect customer information directly through the website.
+
+Use data minimisation and secure handling practices.
+
+Requirements:
+- Collect only necessary customer information.
+- Protect order and enquiry records from public access.
+- Apply server-side validation.
+- Implement appropriate access controls.
+- Prevent unauthorised changes to product or order data.
+- Validate uploaded files.
+- Limit upload size and accepted file types.
+- Do not expose private database credentials.
+- Provide a privacy notice explaining the information collected and why.
+- Explain how customers can contact me about their information.
+- Do not add marketing subscriptions by default.
+- Do not publish customer photos or testimonials without permission.
+
+Clearly distinguish publicly available product information from private customer information.
+
+---
+
+## 14. SEO, DISCOVERABILITY AND SOCIAL INTEGRATION
+
+Include:
+- Meaningful page titles.
+- Search-engine descriptions.
+- Appropriate heading hierarchy.
+- Descriptive image alt text.
+- Clean URLs where supported.
+- Social sharing metadata.
+- Mobile-friendly layouts.
+- Appropriate product metadata.
+- A favicon based on my brand identity, when the logo asset is available.
+
+Provide placeholders for my actual Instagram profile, WhatsApp number and business email.
+
+Do not invent these values.
+
+Make it easy for visitors coming from Instagram to browse products, see prices and start an order.
+
+Include WhatsApp contact links only after I supply the correct number. Never create an invented number or contact link.
+
+Do not make a nonfunctional embedded Instagram feed. If a live feed requires an external service, API permissions or configuration, explain that and provide a working alternative, such as a curated gallery linking to my profile.
+
+---
+
+## 15. RESPONSIVE DESIGN
+
+Build mobile-first while preserving an exceptional desktop experience.
+
+### Mobile requirements
+- Readable typography.
+- Properly cropped product images.
+- Easy-to-use navigation.
+- Touch-friendly controls.
+- Clear prices and order buttons.
+- Forms that are comfortable to complete.
+- A practical cart and checkout or order-request flow.
+- No horizontal overflow.
+- Reduced or simplified heavy animations.
+- Good loading performance.
+
+### Desktop requirements
+- More expansive editorial compositions.
+- Intentional asymmetry.
+- Large campaign photography.
+- Refined navigation.
+- Spacious product layouts.
+- Thoughtful scrolling transitions.
+
+Test the site at narrow mobile widths, standard mobile sizes, tablets and desktop screens.
+
+Do not merely shrink the desktop layout to fit mobile.
+
+---
+
+## 16. CONTENT AND ASSET MANAGEMENT
+
+Use my real photographs, logo and brand assets as the source of truth.
+
+If I provide image assets to the project:
+- Preserve their original files.
+- Use appropriate image optimisation.
+- Create suitable responsive image sizes where practical.
+- Avoid stretching or distorting images.
+- Use deliberate crops.
+- Keep product images distinct from decorative backgrounds.
+- Make it possible to replace images through the admin dashboard.
+
+If an image or piece of information is missing, use a clearly identified placeholder.
+
+Never present invented AI-generated product photography as a photograph of an actual item I sell.
+
+The admin dashboard should allow me to add new products and categories without having to rewrite the homepage manually. New products should appear in the correct catalogue views based on their stored data.
+
+---
+
+## 17. DEVELOPMENT AND DELIVERY PROCESS
+
+Build the application in clear stages, while preserving the overall visual vision.
+
+### Stage 1: Establish the foundation
+- Set up the application.
+- Create the design system.
+- Implement responsive navigation.
+- Build the campaign-style homepage.
+- Establish the product catalogue structure.
+- Integrate the supplied logo and brand colours.
+
+### Stage 2: Build the shopping experience
+- Category pages.
+- Product detail pages.
+- Product gallery.
+- Visible prices.
+- Shopping bag.
+- Order-request workflow.
+- Custom-order form.
+
+### Stage 3: Implement persistent data and security
+- Configure the selected backend.
+- Set up product data.
+- Implement secure admin authentication.
+- Add product-management functions.
+- Add enquiry and order management.
+- Verify access rules.
+- Validate all forms.
+
+### Stage 4: Add the immersive experience
+- Campaign transitions.
+- Scroll-triggered effects.
+- Product interactions.
+- Responsive animation fallbacks.
+- Reduced-motion support.
+
+### Stage 5: Test and prepare for launch
+- Test the complete customer journey.
+- Test the administrator journey.
+- Test persistence after refreshing the page.
+- Test on mobile and desktop.
+- Verify error handling.
+- Verify that private data is not publicly accessible.
+- Verify that no button is merely decorative while pretending to perform an action.
+- Document remaining setup requirements.
+
+Do not spend all the effort on the first screen and leave the rest of the website incomplete.
+
+If the project becomes too large for a single generation pass, implement it incrementally in the same project. Maintain a clear record of completed features and remaining tasks. Do not overwrite working functionality unnecessarily.
+
+---
+
+## 18. ACCEPTANCE TESTS
+
+Before declaring the website complete, verify these scenarios.
+
+### Public website
+- The homepage loads correctly.
+- The logo and brand colours are correct.
+- Navigation works.
+- All eight product categories are accessible.
+- Product prices are visible.
+- Product detail pages load correctly.
+- Search and filters work if implemented.
+- The site adapts to mobile and desktop.
+- The website remains usable with reduced motion enabled.
+
+### Products and shopping
+- An administrator can add a product.
+- A product can be edited and unpublished.
+- Product changes persist after refreshing.
+- A customer can add an available product to the bag.
+- Quantities and subtotals update correctly.
+- Shipping is clearly identified as additional.
+- Unavailable products cannot be ordered as available.
+- The order-request process validates required information.
+- An order reference is issued only after the order is successfully recorded.
+
+### Custom orders
+- The form validates required fields.
+- Conditional questions behave correctly.
+- File uploads are restricted appropriately.
+- Enquiries persist in the database.
+- An authorised administrator can review enquiries.
+- Customers see an accurate confirmation after successful submission.
+
+### Administration and security
+- Unauthenticated visitors cannot access private dashboard data.
+- An authorised administrator can manage products.
+- Orders and enquiries persist.
+- Public users cannot alter prices or stock directly.
+- Administrator credentials and private keys are not exposed in frontend code.
+- Customer information is not readable by unauthorised users.
+
+### Launch readiness
+- No placeholder contact details are presented as real.
+- No invented customer reviews or fake products are published.
+- No dead buttons remain.
+- No fake payment success state exists.
+- Any incomplete integrations are explicitly identified.
+- Required environment variables and setup steps are documented.
+
+---
+
+## 19. HOW TO GUIDE ME
+
+I am not a programmer.
+
+When a manual step is necessary:
+1. Tell me exactly what to click.
+2. Use the names of the buttons and menus I should look for.
+3. Explain why the step is necessary in simple language.
+4. Provide code or configuration only when required.
+5. Tell me exactly where to put it.
+6. Never assume I know how to configure a database, authentication or deployment.
+7. Never ask me to expose passwords, secret keys or private credentials in the chat.
+8. Help me troubleshoot actual errors rather than repeatedly regenerating the whole project.
+
+At the end, provide:
+- The completed features.
+- The remaining setup tasks.
+- The selected technology stack.
+- Any free-tier limits or potential future charges.
+- How to access the private admin dashboard securely.
+- How to add, edit and remove products.
+- How to review enquiries and orders.
+- How to publish the site.
+- How to test it before sharing the link with customers.
+
+Do not claim that the website is published until a real deployment has succeeded.
+
+---
+
+## FINAL CREATIVE DIRECTIVE
+
+Build a website that looks and feels like a serious luxury creative house, not a beginner's craft website.
+
+It must be visually bold, editorial, immersive, sophisticated and original.
+
+The brand identity must remain recognisably Karunya by Mahek. The experience must unite my diverse artistic creations under one coherent visual identity, tell the story of the artist behind the work, and make it straightforward for customers to browse, customise and order.
+
+**Luxury in art direction. Originality in experience. Functionality in execution.**
+
+Start building the actual application now. Prioritise the real working website over a long explanation of what you intend to build. If a required integration cannot be completed without my input, implement the parts that can be completed, clearly identify the missing setup, and guide me through it in simple steps.
