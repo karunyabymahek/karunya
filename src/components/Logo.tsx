@@ -7,89 +7,42 @@ interface LogoProps {
   showSubtitle?: boolean;
 }
 
+/** Brand lockup styled to match the supplied burgundy, ivory and rose reference. */
 export const Logo: React.FC<LogoProps> = ({
   className = '',
   variant = 'burgundy',
   size = 'md',
   showSubtitle = true,
 }) => {
-  const isLight = variant === 'cream';
-
-  const titleSizes = {
-    sm: 'text-xl tracking-tight',
-    md: 'text-2xl md:text-3xl tracking-tight',
-    lg: 'text-4xl md:text-5xl tracking-tight',
-    xl: 'text-5xl md:text-6xl tracking-tight',
-  };
-
-  const subtitleSizes = {
-    sm: 'text-[9px] tracking-[0.25em]',
-    md: 'text-[10px] md:text-[11px] tracking-[0.28em]',
-    lg: 'text-[12px] md:text-[13px] tracking-[0.32em]',
-    xl: 'text-[14px] md:text-[15px] tracking-[0.35em]',
-  };
+  const sizes = {
+    sm: { width: 112, font: 31, subtitle: 7 },
+    md: { width: 190, font: 52, subtitle: 10 },
+    lg: { width: 300, font: 80, subtitle: 14 },
+    xl: { width: 440, font: 118, subtitle: 18 },
+  }[size];
+  const ink = variant === 'monochrome' ? '#FFFFFF' : '#FFFFFF';
 
   return (
-    <div className={`relative inline-flex flex-col items-center justify-center select-none ${className}`}>
-      {/* Decorative Atelier Rose Motif positioned softly behind typography */}
-      <div
-        className="absolute pointer-events-none -top-1.5 md:-top-2.5 opacity-25"
-        style={{
-          width: size === 'xl' ? '90px' : size === 'lg' ? '70px' : size === 'md' ? '48px' : '36px',
-          height: size === 'xl' ? '90px' : size === 'lg' ? '70px' : size === 'md' ? '48px' : '36px',
-        }}
-      >
-        <svg
-          viewBox="0 0 100 100"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className={isLight ? 'text-[#F5EFE9]' : 'text-[#C48A8C]'}
-        >
-          {/* Handcrafted Rose Silhouette */}
-          <path
-            d="M50 20C42 20 38 27 38 33C38 41 46 45 50 49C54 45 62 41 62 33C62 27 58 20 50 20Z"
-            fill="currentColor"
-            fillOpacity="0.4"
-          />
-          <path
-            d="M36 34C28 35 22 42 24 50C26 58 35 62 43 64C41 57 41 50 42 45C39 42 37 38 36 34Z"
-            fill="currentColor"
-            fillOpacity="0.5"
-          />
-          <path
-            d="M64 34C72 35 78 42 76 50C74 58 65 62 57 64C59 57 59 50 58 45C61 42 63 38 64 34Z"
-            fill="currentColor"
-            fillOpacity="0.5"
-          />
-          <path
-            d="M50 51C44 54 36 61 38 72C40 82 50 85 50 85C50 85 60 82 62 72C64 61 56 54 50 51Z"
-            fill="currentColor"
-            fillOpacity="0.6"
-          />
-          <circle cx="50" cy="42" r="5" fill="currentColor" />
-        </svg>
-      </div>
-
-      {/* Main Brand Wordmark */}
-      <span
-        className={`font-editorial font-medium uppercase relative z-10 transition-colors duration-300 ${
-          isLight ? 'text-[#F5EFE9]' : 'text-[#5A0F26]'
-        } ${titleSizes[size]}`}
-        style={{ letterSpacing: '0.04em' }}
-      >
-        Karunya
-      </span>
-
-      {/* Subtitle "by Mahek" */}
-      {showSubtitle && (
-        <span
-          className={`font-sans font-light uppercase mt-0.5 relative z-10 ${
-            isLight ? 'text-[#F5EFE9]/80' : 'text-[#5A0F26]/75'
-          } ${subtitleSizes[size]}`}
-        >
-          by Mahek
-        </span>
-      )}
+    <div
+      className={`inline-flex items-center justify-center overflow-hidden ${className}`}
+      style={{ width: sizes.width, maxWidth: '100%', background: '#3A0927', padding: '4px 5px' }}
+    >
+      <svg viewBox="0 0 420 142" role="img" aria-label="Karunya by Mahek" className="w-full h-auto">
+        <defs>
+          <radialGradient id="karunya-reference-rose" cx="48%" cy="38%" r="68%">
+            <stop offset="0%" stopColor="#B76578" />
+            <stop offset="55%" stopColor="#91405A" />
+            <stop offset="100%" stopColor="#67233F" />
+          </radialGradient>
+        </defs>
+        <g transform="translate(278 63)" opacity="0.96">
+          <path d="M-5 13C-39-8-26-39-8-43C8-47 23-30 16-13C35-36 55-24 51-5C48 12 29 19 8 25C32 38 23 60 6 60C-11 60-22 43-15 25C-36 42-54 21-43 3C-35-10-16-5-5 13Z" fill="url(#karunya-reference-rose)"/>
+          <path d="M-9 9C-24-8-13-25 0-21C10-18 8-5 0 0C17-18 32-5 22 8C15 17 2 15-9 9Z" fill="#B96A7C"/>
+          <path d="M-2 8C-5-1 4-11 11-6C16-2 8 7-2 8Z" fill="#874056"/>
+        </g>
+        <text x="4" y="86" fill={ink} fontFamily="'Bodoni 72', Didot, 'Times New Roman', serif" fontSize={sizes.font} fontWeight="700" letterSpacing="-3">Karunya</text>
+        {showSubtitle && <text x="210" y="122" textAnchor="middle" fill={ink} fontFamily="Didot, 'Times New Roman', serif" fontSize={sizes.subtitle} letterSpacing="8">By Mahek</text>}
+      </svg>
     </div>
   );
 };
