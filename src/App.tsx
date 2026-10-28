@@ -281,35 +281,6 @@ export default function App() {
         }}
       />
 
-      {/* Public catalogue paused while products are temporarily unavailable */}
-      <section id="collection" className="py-16 sm:py-24 px-4 sm:px-8 max-w-5xl mx-auto w-full border-t border-[#1E1114]/10">
-        <div className="max-w-3xl mx-auto text-center py-8 sm:py-14 space-y-5">
-          <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.3em] text-[#C48A8C] font-semibold block">
-            The Atelier Is Evolving
-          </span>
-          <h2 className="font-editorial text-3xl sm:text-5xl text-[#1E1114] font-medium tracking-tight">
-            The Collection
-          </h2>
-          <p className="font-editorial italic text-xl sm:text-2xl text-[#5A0F26]">
-            A little pause before the next creation.
-          </p>
-          <p className="text-sm sm:text-base text-[#1E1114]/70 font-light leading-relaxed max-w-xl mx-auto">
-            Our pieces are not available for purchase at the moment. We are preparing what comes next.
-            For a bespoke idea or personal commission, you are warmly invited to get in touch.
-          </p>
-          <button
-            onClick={() => {
-              setCustomOrderPreselect(null);
-              setIsCustomOrderOpen(true);
-            }}
-            className="inline-flex items-center justify-center gap-2 px-7 py-4 bg-[#5A0F26] text-[#F5EFE9] text-[10px] sm:text-xs uppercase tracking-[0.16em] font-medium hover:bg-[#3E0818] transition-colors"
-          >
-            <Sparkles className="w-4 h-4" />
-            <span>Enquire About a Commission</span>
-          </button>
-        </div>
-      </section>
-
       {/* The Artist Behind the Work & Behind The Making */}
       <ArtistStory
         onCustomOrder={() => {
