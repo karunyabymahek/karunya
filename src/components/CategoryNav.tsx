@@ -80,14 +80,14 @@ export const CategoryNav: React.FC<CategoryNavProps> = ({
   onSelectCategory,
 }) => {
   return (
-    <section id="categories" className="py-20 px-6 sm:px-8 max-w-7xl mx-auto border-t border-[#1E1114]/10">
+    <section id="categories" className="py-12 sm:py-20 px-4 sm:px-8 max-w-7xl mx-auto border-t border-[#1E1114]/10">
       {/* Section Header */}
-      <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 space-y-4 md:space-y-0">
+      <div className="flex flex-col md:flex-row md:items-end justify-between mb-6 sm:mb-12 space-y-3 md:space-y-0">
         <div>
           <span className="text-[11px] uppercase tracking-[0.28em] text-[#C48A8C] font-semibold block mb-2">
             The Eight Disciplines
           </span>
-          <h2 className="font-editorial text-3xl sm:text-5xl text-[#1E1114] tracking-tight font-medium">
+          <h2 className="font-editorial text-3xl sm:text-5xl text-[#1E1114] tracking-tight font-medium leading-tight">
             Curated Categories
           </h2>
         </div>
@@ -98,7 +98,7 @@ export const CategoryNav: React.FC<CategoryNavProps> = ({
       </div>
 
       {/* Filter Tabs Bar (Horizontal clean scrollable bar) */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-4 mb-10 no-scrollbar border-b border-[#1E1114]/10">
+      <div className="flex items-center gap-2 overflow-x-auto pb-3 mb-6 sm:mb-10 no-scrollbar border-b border-[#1E1114]/10">
         <button
           onClick={() => onSelectCategory('all')}
           className={`px-4 py-2 text-xs uppercase tracking-widest whitespace-nowrap transition-colors cursor-pointer focus:outline-none ${
@@ -125,21 +125,21 @@ export const CategoryNav: React.FC<CategoryNavProps> = ({
       </div>
 
       {/* Visual Editorial Category Feature Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
         {CATEGORIES.map((cat, idx) => {
           const isSelected = selectedCategory === cat.id;
           return (
             <div
               key={cat.id}
               onClick={() => onSelectCategory(cat.id)}
-              className={`group cursor-pointer p-5 transition-all duration-300 border ${
+              className={`group min-w-0 cursor-pointer p-2.5 sm:p-5 transition-all duration-300 border ${
                 isSelected
                   ? 'border-[#5A0F26] bg-[#5A0F26]/5 shadow-[0_8px_30px_rgba(90,15,38,0.06)]'
                   : 'border-[#1E1114]/10 bg-transparent hover:border-[#5A0F26]/40 hover:bg-[#F5EFE9]'
               }`}
             >
               {/* Category Image */}
-              <div className="overflow-hidden aspect-[4/3] bg-[#EAE3DB] mb-4 relative">
+              <div className="overflow-hidden aspect-[4/5] sm:aspect-[4/3] bg-[#EAE3DB] mb-3 sm:mb-4 relative">
                 <img
                   src={cat.previewImage}
                   alt={cat.title}
@@ -154,20 +154,20 @@ export const CategoryNav: React.FC<CategoryNavProps> = ({
 
               {/* Category Metadata */}
               <div className="space-y-1.5">
-                <p className="text-[10px] uppercase tracking-[0.2em] text-[#C48A8C] font-medium">
+                <p className="text-[8px] sm:text-[10px] uppercase tracking-[0.12em] sm:tracking-[0.2em] text-[#C48A8C] font-medium leading-snug">
                   {cat.tagline}
                 </p>
-                <h3 className="font-editorial text-xl text-[#1E1114] group-hover:text-[#5A0F26] transition-colors">
+                <h3 className="font-editorial text-base sm:text-xl leading-tight text-[#1E1114] group-hover:text-[#5A0F26] transition-colors">
                   {cat.title}
                 </h3>
-                <p className="text-xs text-[#1E1114]/70 font-light line-clamp-2 leading-relaxed">
+                <p className="text-[10px] sm:text-xs text-[#1E1114]/70 font-light line-clamp-3 sm:line-clamp-2 leading-relaxed">
                   {cat.description}
                 </p>
               </div>
 
               {/* View Action Link */}
-              <div className="pt-3 mt-3 border-t border-[#1E1114]/10 flex items-center justify-between text-[11px] uppercase tracking-wider text-[#5A0F26]">
-                <span>Filter Category</span>
+              <div className="pt-2 sm:pt-3 mt-2 sm:mt-3 border-t border-[#1E1114]/10 flex items-center justify-between gap-1 text-[9px] sm:text-[11px] uppercase tracking-wide sm:tracking-wider text-[#5A0F26]">
+                <span>View</span>
                 <span className="transition-transform duration-200 group-hover:translate-x-1">→</span>
               </div>
             </div>
