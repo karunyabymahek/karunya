@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, Sparkles } from 'lucide-react';
+import heroAtelierImage from '../assets/images/hero_atelier_creations_1793124077093.jpg';
 
 interface HeroProps {
   onExplore: () => void;
@@ -68,7 +69,7 @@ export const Hero: React.FC<HeroProps> = ({ onExplore, onCustomOrder }) => {
           <div className="relative group overflow-hidden bg-[#EAE3DB] shadow-[0_20px_60px_rgba(30,17,20,0.08)]">
             {/* The Authentic Atelier Still-Life */}
             <img
-              src="/src/assets/images/hero_atelier_creations_1793124077093.jpg"
+              src={heroAtelierImage}
               alt="Atelier creations by Mahek: handcrafted crochet rose, textured oil painting, and sculpted travertine tray"
               className="w-full h-[460px] sm:h-[540px] object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.02]"
               referrerPolicy="no-referrer"
