@@ -56,7 +56,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             : 'bg-transparent py-5'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 flex items-center justify-between gap-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between gap-2 sm:gap-8">
           {/* Zone 1: Single Brand Lockup (Wordmark in display face) */}
           <button
             onClick={() => handleNavClick('home')}
@@ -101,7 +101,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </nav>
 
           {/* Zone 3: Actions — Search, Admin Lock & Primary Shopping Bag Trigger */}
-          <div className="flex items-center gap-4 sm:gap-6 shrink-0">
+          <div className="flex items-center gap-1 sm:gap-6 shrink-0">
             {/* Search Trigger */}
             <button
               onClick={onOpenSearch}
@@ -115,7 +115,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             {/* Shopping Bag Trigger */}
             <button
               onClick={onOpenCart}
-              className="relative flex items-center gap-2 py-2 px-3 text-[#1E1114] hover:text-[#5A0F26] transition-colors cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-[#5A0F26]"
+              className="relative flex items-center gap-1 sm:gap-2 py-2 px-1.5 sm:px-3 text-[#1E1114] hover:text-[#5A0F26] transition-colors cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-[#5A0F26]"
               aria-label={`Shopping bag containing ${cartCount} items`}
             >
               <ShoppingBag className="w-4 h-4 text-[#5A0F26]" />
