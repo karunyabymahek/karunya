@@ -10,9 +10,9 @@ interface ArtistStoryProps {
 
 export const ArtistStory: React.FC<ArtistStoryProps> = ({ onCustomOrder }) => {
   return (
-    <section id="artist" className="py-24 px-6 sm:px-8 max-w-7xl mx-auto border-t border-[#1E1114]/10">
+    <section id="artist" className="py-12 sm:py-24 px-4 sm:px-8 max-w-7xl mx-auto border-t border-[#1E1114]/10">
       {/* 1. The Artist Behind the Work */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 sm:gap-12 lg:gap-16 items-center">
         {/* Left: Atmospheric Art Direction Studio Portrait / Composition */}
         <div className="lg:col-span-5 relative">
           <div className="relative aspect-[3/4] bg-[#EAE3DB] overflow-hidden border border-[#1E1114]/15 shadow-[0_12px_40px_rgba(30,17,20,0.06)]">
@@ -100,7 +100,7 @@ export const ArtistStory: React.FC<ArtistStoryProps> = ({ onCustomOrder }) => {
       </div>
 
       {/* 2. Behind The Making Section */}
-      <div className="mt-24 pt-16 border-t border-[#1E1114]/10">
+      <div className="mt-12 sm:mt-24 pt-10 sm:pt-16 border-t border-[#1E1114]/10">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div>
             <span className="text-[11px] uppercase tracking-[0.28em] text-[#C48A8C] font-semibold block mb-2">
@@ -115,7 +115,7 @@ export const ArtistStory: React.FC<ArtistStoryProps> = ({ onCustomOrder }) => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-6">
           <div className="group border border-[#1E1114]/10 p-5 bg-[#EAE3DB]/30 space-y-4">
             <div className="aspect-[4/3] bg-[#EAE3DB] overflow-hidden">
               <img
