@@ -9,24 +9,24 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onExplore, onCustomOrder }) => {
   return (
-    <section className="relative min-h-[92vh] flex flex-col justify-between pt-28 pb-12 px-6 sm:px-8 max-w-7xl mx-auto overflow-hidden">
+    <section className="relative min-h-[auto] lg:min-h-[92vh] flex flex-col justify-between pt-24 sm:pt-28 pb-8 sm:pb-12 px-4 sm:px-8 max-w-7xl mx-auto overflow-hidden">
       {/* Top Editorial Kicker */}
-      <div className="flex items-center justify-between text-xs tracking-[0.25em] uppercase text-[#1E1114]/60 pt-4 pb-6 border-b border-[#1E1114]/10">
+      <div className="flex items-center justify-between gap-3 text-[9px] sm:text-xs tracking-[0.16em] sm:tracking-[0.25em] uppercase text-[#1E1114]/60 pt-3 sm:pt-4 pb-4 sm:pb-6 border-b border-[#1E1114]/10">
         <span>Atelier & Multidisciplinary House</span>
         <span>Independent Studio</span>
         <span className="hidden sm:inline">Handcrafted In India</span>
       </div>
 
       {/* Main Campaign Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center my-auto py-8">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-7 sm:gap-10 lg:gap-14 items-center my-auto py-6 sm:py-8">
         {/* Left Column: Bold Editorial Typography */}
-        <div className="lg:col-span-6 flex flex-col justify-center space-y-8">
-          <div className="space-y-4">
+        <div className="lg:col-span-6 flex flex-col justify-center space-y-5 sm:space-y-8">
+          <div className="space-y-3 sm:space-y-4">
             <span className="inline-block text-[11px] uppercase tracking-[0.3em] text-[#C48A8C] font-semibold">
               The Digital Atelier
             </span>
             <h1
-              className="font-editorial text-4xl sm:text-6xl lg:text-[4.25rem] leading-[1.05] tracking-tight text-[#1E1114] font-medium"
+              className="font-editorial text-[2.65rem] leading-[1.02] sm:text-6xl lg:text-[4.25rem] leading-[1.05] tracking-tight text-[#1E1114] font-medium"
               style={{ textWrap: 'balance' }}
             >
               Art, Beyond the <span className="italic font-normal text-[#5A0F26]">Ordinary.</span>
@@ -58,7 +58,7 @@ export const Hero: React.FC<HeroProps> = ({ onExplore, onCustomOrder }) => {
           </div>
 
           {/* Micro-policy trust notice */}
-          <div className="pt-4 flex items-center gap-3 text-xs text-[#1E1114]/60">
+          <div className="pt-2 sm:pt-4 flex items-start gap-3 text-[10px] sm:text-xs leading-relaxed text-[#1E1114]/60">
             <span className="w-1.5 h-1.5 rounded-full bg-[#C48A8C]" />
             <span>Full advance settlement required · No COD · Tailored with personal precision</span>
           </div>
@@ -71,13 +71,13 @@ export const Hero: React.FC<HeroProps> = ({ onExplore, onCustomOrder }) => {
             <img
               src={heroAtelierImage}
               alt="Atelier creations by Mahek: handcrafted crochet rose, textured oil painting, and sculpted travertine tray"
-              className="w-full h-[460px] sm:h-[540px] object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.02]"
+              className="w-full h-[320px] xs:h-[360px] sm:h-[540px] object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.02]"
               referrerPolicy="no-referrer"
               loading="eager"
             />
 
             {/* Subtle Editorial Caption Overlay */}
-            <div className="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-[#1E1114]/85 via-[#1E1114]/40 to-transparent flex items-end justify-between text-[#F5EFE9]">
+            <div className="absolute bottom-0 inset-x-0 p-4 sm:p-6 bg-gradient-to-t from-[#1E1114]/85 via-[#1E1114]/40 to-transparent flex items-end justify-between text-[#F5EFE9]">
               <div>
                 <p className="text-[10px] uppercase tracking-[0.25em] text-[#C48A8C]">Atelier Still-Life</p>
                 <p className="font-editorial text-lg italic">Texture, Thread & Stone</p>
@@ -94,7 +94,7 @@ export const Hero: React.FC<HeroProps> = ({ onExplore, onCustomOrder }) => {
       </div>
 
       {/* Bottom Scroll Cue */}
-      <div className="pt-6 border-t border-[#1E1114]/10 flex items-center justify-between text-xs text-[#1E1114]/50">
+      <div className="pt-4 sm:pt-6 border-t border-[#1E1114]/10 flex items-center justify-between gap-3 text-xs text-[#1E1114]/50">
         <span className="font-mono text-[11px]">VOL. 2026 // ATELIER EDITION</span>
         <button
           onClick={onExplore}
