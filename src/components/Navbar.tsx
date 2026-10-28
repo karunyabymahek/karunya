@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Logo } from './Logo';
-import { ShoppingBag, Search, Lock, Menu, X, ArrowUpRight } from 'lucide-react';
+import { Lock, Menu, X, ArrowUpRight } from 'lucide-react';
 
 interface NavbarProps {
   cartCount: number;
@@ -102,28 +102,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           {/* Zone 3: Actions — Search, Admin Lock & Primary Shopping Bag Trigger */}
           <div className="flex items-center gap-1 sm:gap-6 shrink-0">
-            {/* Search Trigger */}
-            <button
-              onClick={onOpenSearch}
-              className="p-2 text-[#1E1114]/70 hover:text-[#5A0F26] transition-colors cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-[#5A0F26]"
-              title="Search atelier creations"
-              aria-label="Search creations"
-            >
-              <Search className="w-4 h-4" />
-            </button>
-
-            {/* Shopping Bag Trigger */}
-            <button
-              onClick={onOpenCart}
-              className="relative flex items-center gap-1 sm:gap-2 py-2 px-1.5 sm:px-3 text-[#1E1114] hover:text-[#5A0F26] transition-colors cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-[#5A0F26]"
-              aria-label={`Shopping bag containing ${cartCount} items`}
-            >
-              <ShoppingBag className="w-4 h-4 text-[#5A0F26]" />
-              <span className="hidden sm:inline text-xs uppercase tracking-widest font-medium">Bag</span>
-              <span className="text-xs font-mono tabular-nums text-[#5A0F26] font-semibold">
-                ({cartCount})
-              </span>
-            </button>
+            {/* Public search and shopping controls are hidden while sales are paused. */}
 
             {/* Discreet Admin Portal Entry */}
             <button
