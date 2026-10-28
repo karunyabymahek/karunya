@@ -1,5 +1,9 @@
 import React from 'react';
 import { ProductCategory } from '../types';
+import crochetImage from '../assets/images/category_crochet_couture_1793124077750.jpg';
+import texturedArtImage from '../assets/images/category_textured_art_1793124079272.jpg';
+import decorTraysImage from '../assets/images/category_decor_trays_1793124079957.jpg';
+import heroAtelierImage from '../assets/images/hero_atelier_creations_1793124077093.jpg';
 
 interface CategoryNavProps {
   selectedCategory: string;
@@ -17,56 +21,56 @@ export const CATEGORIES: {
     id: 'Crochet creations',
     title: 'Crochet Couture',
     tagline: 'Sculptural Flora & Keepsakes',
-    previewImage: '/src/assets/images/category_crochet_couture_1793124077750.jpg',
+    previewImage: crochetImage,
     description: 'Fine mercerised cotton botanicals, delicate rose brooches, heirloom rakhis, and tactile accessories.',
   },
   {
     id: 'Art and paintings',
     title: 'Art & Paintings',
     tagline: 'Impasto Canvas & Texture',
-    previewImage: '/src/assets/images/category_textured_art_1793124079272.jpg',
+    previewImage: texturedArtImage,
     description: 'Original textured canvases, heavy palette-knife impasto studies, sculptural reliefs, and fine portraits.',
   },
   {
     id: 'Bouquets and floral gifts',
     title: 'Botanical Bouquets',
     tagline: 'Everlasting Stems & Stems',
-    previewImage: '/src/assets/images/category_crochet_couture_1793124077750.jpg',
+    previewImage: crochetImage,
     description: 'Permanent botanical arrangements tied in raw linen, hand-knitted dahlias, peonies, and wild eucalyptus.',
   },
   {
     id: 'Handmade décor and trays',
     title: 'Décor & Trays',
     tagline: 'Sculpted Stone & Brass',
-    previewImage: '/src/assets/images/category_decor_trays_1793124079957.jpg',
+    previewImage: decorTraysImage,
     description: 'Hand-formed mineral composite trays, raw travertine edges, organic leaf gilding, and artisanal vessels.',
   },
   {
     id: 'Wearables',
     title: 'Wearables',
     tagline: 'Heirloom Knitwear & Collars',
-    previewImage: '/src/assets/images/hero_atelier_creations_1793124077093.jpg',
+    previewImage: heroAtelierImage,
     description: 'Chunky merino cardigans, hand-crocheted vintage collars, and tailored textile garments.',
   },
   {
     id: 'Plushies and stuffed toys',
     title: 'Collectible Plushies',
     tagline: 'Artisanal Jointed Soft Sculpture',
-    previewImage: '/src/assets/images/category_crochet_couture_1793124077750.jpg',
+    previewImage: crochetImage,
     description: 'Individually sculpted heirloom mohair bears, hand-embroidered details, and velvet-collared companions.',
   },
   {
     id: 'Books, writing and stationery',
     title: 'Stationery & Journals',
     tagline: 'Cotton Rag & Wax Seals',
-    previewImage: '/src/assets/images/category_decor_trays_1793124079957.jpg',
+    previewImage: decorTraysImage,
     description: 'Deckle-edge handmade cotton paper journals, long-stitch bindings, and signature wax seal impressions.',
   },
   {
     id: 'Personalised gifts and other creative pieces',
     title: 'Personalised Pieces',
     tagline: 'Shadowboxes & Monograms',
-    previewImage: '/src/assets/images/category_textured_art_1793124079272.jpg',
+    previewImage: texturedArtImage,
     description: 'Bespoke milestone tributes, custom birth-flower shadowboxes, and intimate commissioned keepsakes.',
   },
 ];
