@@ -1,5 +1,8 @@
 import React from 'react';
 import { Sparkles, ArrowRight } from 'lucide-react';
+import crochetImage from '../assets/images/category_crochet_couture_1793124077750.jpg';
+import texturedArtImage from '../assets/images/category_textured_art_1793124079272.jpg';
+import decorTraysImage from '../assets/images/category_decor_trays_1793124079957.jpg';
 
 interface ArtistStoryProps {
   onCustomOrder: () => void;
@@ -14,7 +17,7 @@ export const ArtistStory: React.FC<ArtistStoryProps> = ({ onCustomOrder }) => {
         <div className="lg:col-span-5 relative">
           <div className="relative aspect-[3/4] bg-[#EAE3DB] overflow-hidden border border-[#1E1114]/15 shadow-[0_12px_40px_rgba(30,17,20,0.06)]">
             <img
-              src="/src/assets/images/category_crochet_couture_1793124077750.jpg"
+              src={crochetImage}
               alt="Atelier workspace and tactile materials by Mahek"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -116,7 +119,7 @@ export const ArtistStory: React.FC<ArtistStoryProps> = ({ onCustomOrder }) => {
           <div className="group border border-[#1E1114]/10 p-5 bg-[#EAE3DB]/30 space-y-4">
             <div className="aspect-[4/3] bg-[#EAE3DB] overflow-hidden">
               <img
-                src="/src/assets/images/category_crochet_couture_1793124077750.jpg"
+                src={crochetImage}
                 alt="Intricate thread needlework"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -136,7 +139,7 @@ export const ArtistStory: React.FC<ArtistStoryProps> = ({ onCustomOrder }) => {
           <div className="group border border-[#1E1114]/10 p-5 bg-[#EAE3DB]/30 space-y-4">
             <div className="aspect-[4/3] bg-[#EAE3DB] overflow-hidden">
               <img
-                src="/src/assets/images/category_textured_art_1793124079272.jpg"
+                src={texturedArtImage}
                 alt="Palette knife impasto technique"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -156,7 +159,7 @@ export const ArtistStory: React.FC<ArtistStoryProps> = ({ onCustomOrder }) => {
           <div className="group border border-[#1E1114]/10 p-5 bg-[#EAE3DB]/30 space-y-4">
             <div className="aspect-[4/3] bg-[#EAE3DB] overflow-hidden">
               <img
-                src="/src/assets/images/category_decor_trays_1793124079957.jpg"
+                src={decorTraysImage}
                 alt="Organic tray casting and mineral seal"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 referrerPolicy="no-referrer"
