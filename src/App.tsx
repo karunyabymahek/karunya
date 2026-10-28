@@ -39,14 +39,7 @@ export default function App() {
   });
 
   // Cart state
-  const [cart, setCart] = useState<CartItem[]>(() => {
-    try {
-      const stored = localStorage.getItem('kbm_cart');
-      return stored ? JSON.parse(stored) : [];
-    } catch {
-      return [];
-    }
-  });
+  const [cart, setCart] = useState<CartItem[]>([]);
 
   // Studio Settings state
   const [settings, setSettings] = useState<StudioSettings>({
@@ -100,7 +93,10 @@ export default function App() {
   };
 
   useEffect(() => {
-    fetchProducts();
+    // Public product sales are temporarily paused; clear any previously saved shopping bag.
+    setProducts([]);
+    setCart([]);
+    try { localStorage.removeItem('kbm_cart'); } catch {}
     fetchSettings();
   }, []);
 
@@ -285,90 +281,33 @@ export default function App() {
         }}
       />
 
-      {/* The Main Collection Grid Section */}
-      <section id="collection" className="py-12 sm:py-20 px-4 sm:px-8 max-w-7xl mx-auto w-full border-t border-[#1E1114]/10">
-        {/* Section Header with Filter / Sort Controls */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 space-y-4 md:space-y-0">
-          <div>
-            <span className="text-[11px] uppercase tracking-[0.28em] text-[#C48A8C] font-semibold block mb-2">
-              Atelier Catalogue
-            </span>
-            <h2 className="font-editorial text-3xl sm:text-5xl text-[#1E1114] font-medium tracking-tight">
-              {selectedCategory === 'all' ? 'All Handcrafted Creations' : selectedCategory}
-            </h2>
-          </div>
-
-          {/* Sorter & Filter Indicator */}
-          <div className="flex items-center gap-4 text-xs">
-            <span className="text-[#1E1114]/60 hidden sm:inline">
-              Showing {displayedProducts.length} {displayedProducts.length === 1 ? 'Study' : 'Studies'}
-            </span>
-
-            <div className="flex items-center gap-2 border border-[#1E1114]/15 bg-white/70 px-3 py-1.5">
-              <SlidersHorizontal className="w-3.5 h-3.5 text-[#5A0F26]" />
-              <select
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value as any)}
-                className="bg-transparent text-xs text-[#1E1114] focus:outline-none cursor-pointer"
-              >
-                <option value="featured">Curated & Featured</option>
-                <option value="price-asc">Price: Low to High</option>
-                <option value="price-desc">Price: High to Low</option>
-              </select>
-            </div>
-          </div>
+      {/* Public catalogue paused while products are temporarily unavailable */}
+      <section id="collection" className="py-16 sm:py-24 px-4 sm:px-8 max-w-5xl mx-auto w-full border-t border-[#1E1114]/10">
+        <div className="max-w-3xl mx-auto text-center py-8 sm:py-14 space-y-5">
+          <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.3em] text-[#C48A8C] font-semibold block">
+            The Atelier Is Evolving
+          </span>
+          <h2 className="font-editorial text-3xl sm:text-5xl text-[#1E1114] font-medium tracking-tight">
+            The Collection
+          </h2>
+          <p className="font-editorial italic text-xl sm:text-2xl text-[#5A0F26]">
+            A little pause before the next creation.
+          </p>
+          <p className="text-sm sm:text-base text-[#1E1114]/70 font-light leading-relaxed max-w-xl mx-auto">
+            Our pieces are not available for purchase at the moment. We are preparing what comes next.
+            For a bespoke idea or personal commission, you are warmly invited to get in touch.
+          </p>
+          <button
+            onClick={() => {
+              setCustomOrderPreselect(null);
+              setIsCustomOrderOpen(true);
+            }}
+            className="inline-flex items-center justify-center gap-2 px-7 py-4 bg-[#5A0F26] text-[#F5EFE9] text-[10px] sm:text-xs uppercase tracking-[0.16em] font-medium hover:bg-[#3E0818] transition-colors"
+          >
+            <Sparkles className="w-4 h-4" />
+            <span>Enquire About a Commission</span>
+          </button>
         </div>
-
-        {/* Product Cards Grid */}
-        {loading ? (
-          <div className="py-24 text-center text-xs text-[#1E1114]/60 space-y-2">
-            <span className="font-editorial text-2xl text-[#5A0F26] italic">
-              Loading Atelier Archive...
-            </span>
-          </div>
-        ) : displayedProducts.length === 0 ? (
-          <div className="py-20 text-center border border-dashed border-[#1E1114]/20 p-12 bg-[#EAE3DB]/30 space-y-4">
-            <h3 className="font-editorial text-2xl italic text-[#1E1114]/60">
-              No creations currently listed under this discipline.
-            </h3>
-            <p className="text-xs text-[#1E1114]/70 max-w-sm mx-auto font-light">
-              You may commission a bespoke piece in this category or view our other atelier disciplines.
-            </p>
-            <button
-              onClick={() => {
-                setCustomOrderPreselect(null);
-                setIsCustomOrderOpen(true);
-              }}
-              className="px-6 py-3 bg-[#5A0F26] text-[#F5EFE9] text-xs uppercase tracking-widest font-medium hover:bg-[#3E0818] transition-colors"
-            >
-              Commission Bespoke Piece
-            </button>
-          </div>
-        ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-8">
-            {displayedProducts.map((product) => (
-              <ProductCard
-                key={product.id}
-                product={product}
-                onSelect={(p) => setSelectedProduct(p)}
-                onQuickAdd={(p) => handleAddToCart(p, 1)}
-              />
-            ))}
-          </div>
-        )}
-
-        {/* View All / Reset Filter Action */}
-        {selectedCategory !== 'all' && (
-          <div className="mt-12 text-center">
-            <button
-              onClick={() => setSelectedCategory('all')}
-              className="inline-flex items-center gap-2 px-6 py-3 border border-[#1E1114]/20 text-[#1E1114] text-xs uppercase tracking-widest hover:border-[#5A0F26] hover:text-[#5A0F26] transition-colors cursor-pointer"
-            >
-              <span>View All Disciplines</span>
-              <ArrowRight className="w-3.5 h-3.5" />
-            </button>
-          </div>
-        )}
       </section>
 
       {/* The Artist Behind the Work & Behind The Making */}
