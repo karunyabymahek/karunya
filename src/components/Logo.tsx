@@ -7,33 +7,22 @@ interface LogoProps {
   showSubtitle?: boolean;
 }
 
-/**
- * Uses Mahek's supplied original logo artwork (not a recreated text/flower mark).
- * The artwork has generous surrounding whitespace, so the image is cropped
- * to a horizontal header lockup while keeping the original artwork unchanged.
- */
-export const Logo: React.FC<LogoProps> = ({
-  className = '',
-  size = 'md',
-}) => {
+/** Displays the original supplied logo artwork without recreating or cropping it. */
+export const Logo: React.FC<LogoProps> = ({ className = '', size = 'md' }) => {
   const widths = { sm: 150, md: 190, lg: 260, xl: 360 } as const;
+
   return (
-    <span
-      className={`inline-flex overflow-hidden ${className}`}
+    <img
+      src="/karunya-logo-horizontal.jpg"
+      alt="Karunya by Mahek"
+      className={`block h-auto ${className}`}
       style={{
         width: widths[size],
         maxWidth: 'min(48vw, 190px)',
-        aspectRatio: '3.2 / 1',
-        flexShrink: 1,
-        backgroundColor: '#3A0927',
+        objectFit: 'contain',
+        objectPosition: 'center',
+        flexShrink: 0,
       }}
-    >
-      <img
-        src="/karunya-original-logo.jpg"
-        alt="Karunya by Mahek"
-        className="block h-full w-full"
-        style={{ objectFit: 'cover', objectPosition: 'center center' }}
-      />
-    </span>
+    />
   );
 };
