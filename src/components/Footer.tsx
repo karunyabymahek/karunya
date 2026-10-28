@@ -21,9 +21,9 @@ export const Footer: React.FC<FooterProps> = ({
   onOpenAdmin,
 }) => {
   return (
-    <footer className="bg-[#1E1114] text-[#F5EFE9] pt-20 pb-12 border-t border-[#5A0F26]/30">
+    <footer className="bg-[#1E1114] text-[#F5EFE9] pt-12 sm:pt-20 pb-8 sm:pb-12 border-t border-[#5A0F26]/30">
       {/* 1. Closing Campaign Statement & Signature Moment */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 pb-16 border-b border-[#F5EFE9]/10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 pb-10 sm:pb-16 border-b border-[#F5EFE9]/10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-end">
           <div className="lg:col-span-8 space-y-4">
             <span className="text-[11px] uppercase tracking-[0.3em] text-[#C48A8C] font-semibold block">
@@ -59,7 +59,7 @@ export const Footer: React.FC<FooterProps> = ({
       </div>
 
       {/* 2. Structured Footer Links */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 border-b border-[#F5EFE9]/10 text-xs text-[#F5EFE9]/70 font-light">
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 py-10 sm:py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 border-b border-[#F5EFE9]/10 text-xs text-[#F5EFE9]/70 font-light">
         {/* Brand identity column */}
         <div className="lg:col-span-4 space-y-4">
           <Logo size="md" variant="cream" />
@@ -244,7 +244,7 @@ export const Footer: React.FC<FooterProps> = ({
       </div>
 
       {/* 3. Bottom Legal & Admin Access */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#F5EFE9]/40 gap-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 pt-6 sm:pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#F5EFE9]/40 gap-4">
         <p>© {new Date().getFullYear()} Karunya by Mahek. All rights reserved. Handcrafted in India.</p>
         <div className="flex items-center gap-6">
           <span className="text-[11px] tracking-widest uppercase">
