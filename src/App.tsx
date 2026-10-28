@@ -286,7 +286,7 @@ export default function App() {
       />
 
       {/* The Main Collection Grid Section */}
-      <section id="collection" className="py-20 px-6 sm:px-8 max-w-7xl mx-auto w-full border-t border-[#1E1114]/10">
+      <section id="collection" className="py-12 sm:py-20 px-4 sm:px-8 max-w-7xl mx-auto w-full border-t border-[#1E1114]/10">
         {/* Section Header with Filter / Sort Controls */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 space-y-4 md:space-y-0">
           <div>
@@ -345,7 +345,7 @@ export default function App() {
             </button>
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-8">
             {displayedProducts.map((product) => (
               <ProductCard
                 key={product.id}
