@@ -43,3 +43,89 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #5A0F26;
 }
+
+
+/* Explicit small-screen layout safeguards for real phone browsers */
+@media screen and (max-width: 767px) {
+  html, body, #root {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: clip;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  header > div {
+    gap: 0.35rem !important;
+  }
+
+  header button {
+    touch-action: manipulation;
+  }
+
+  /* Keep the homepage editorial content in a clear, vertical phone flow. */
+  #root section {
+    max-width: 100%;
+  }
+
+  #root section:first-of-type {
+    min-height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 6.25rem;
+    padding-bottom: 2rem;
+  }
+
+  #root section:first-of-type > div:first-child {
+    gap: 0.5rem;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+  }
+
+  #root section:first-of-type h1 {
+    font-size: clamp(2.45rem, 11vw, 3.25rem);
+    line-height: 0.99;
+    overflow-wrap: normal;
+  }
+
+  #root section:first-of-type p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  #root section:first-of-type img {
+    display: block;
+    width: 100%;
+    height: min(92vw, 360px);
+    object-fit: cover;
+  }
+
+  #root section:first-of-type button {
+    min-height: 48px;
+    width: 100%;
+    padding: 0.9rem 1rem;
+    letter-spacing: 0.12em;
+  }
+
+  #root section:not(:first-of-type) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #root section#collection {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  #root section#collection h2 {
+    font-size: clamp(1.9rem, 8vw, 2.5rem);
+    line-height: 1.1;
+  }
+
+  #root section#collection select {
+    max-width: 70vw;
+  }
+}
