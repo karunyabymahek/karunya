@@ -63,7 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             className="text-left cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-[#5A0F26] p-1 -m-1"
             aria-label="Karunya by Mahek Home"
           >
-            <Logo size="sm" variant="burgundy" />
+            <Logo size="md" variant="burgundy" />
           </button>
 
           {/* Zone 2: 4-5 Concise Single-line Navigation Links */}
